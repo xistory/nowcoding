@@ -1,3 +1,5 @@
+sounds 파일 다운로드 : <https://drive.google.com/open?id=1Q-8aYuyLWM2UcCDnTzRpad5we-Ub14hA>
+
 # 문제-01
 index-START.html 파일을 브라우져에서 열어봅니다.   
 키보드에서 A, S, D, F, G, H, J, K, L 키를 눌렀을 때,   
