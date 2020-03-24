@@ -26,4 +26,4 @@ JavaScript
 - 25 날짜와 시간을 위한 Date 객체
 
 ECMAScript
-- 템플릿 리터럴
+- 2 템플릿 리터럴
