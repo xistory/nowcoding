@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>여러개 한번에 선택하기</title>
+</head>
+<body>
+  <style>
+
+    html {
+      font-family: sans-serif;
+      background: #ffc600;
+    }
+
+    .inbox {
+      max-width: 400px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 5px;
+      box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #F1F1F1;
+    }
+
+    .item:last-child {
+      border-bottom: 0;
+    }
+
+    input:checked + p {
+      background: #F9F9F9;
+      text-decoration: line-through;
+    }
+
+    input[type="checkbox"] {
+      margin: 20px;
+    }
+
+    p {
+      margin: 0;
+      padding: 20px;
+      transition: background 0.2s;
+      flex: 1;
+      font-family:'helvetica neue';
+      font-size: 20px;
+      font-weight: 200;
+      border-left: 1px solid #D1E2FF;
+    }
+  </style>
+   <!--
+   The following is a common layout you would see in an email client.
+
+   When a user clicks a checkbox, holds Shift, and then clicks another checkbox a few rows down, all the checkboxes inbetween those two checkboxes should be checked.
+
+  -->
+  <div class="inbox">
+    <div class="item">
+      <input type="checkbox">
+      <p>컴퓨터 프로그램의 구조와 해석</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>모두의 데이터 과학</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>HTTP 완벽 가이드</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>CODE</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>인사이드 자바스크립트</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>알고리즘 문제해결 전략</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>문제로 풀어보는 알고리즘</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>인공지능을 위한 수학</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>알고리즘 트레이닝</p>
+    </div>
+  </div>
+
+<script>
+</script>
+</body>
+</html>
