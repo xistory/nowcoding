@@ -1,10 +1,13 @@
-# Vanila Javascript
+## Vanila Javascript
 
 문법 공부: <https://poiemaweb.com/>   
 
 - JS 기초   
 - 바닐라 10여개   
-- poiemweb에서 심화문법 (여기까지가 vanila JS)   
+- poiemweb에서 심화문법   
+
+## 풀스택 프로젝트
+
 - React.js 기초 : <https://velopert.com/3613>   
 - React Hooks : <https://velog.io/@velopert/react-hooks#9-%EB%8B%A4%EB%A5%B8-hooks>   
 - serverless-stack basic : <https://serverless-stack.com>   
