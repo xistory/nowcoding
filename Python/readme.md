@@ -241,27 +241,27 @@ exponent 함수가 계산하는 프로세스가 줄어들도록 함수를 개선
 기존의 exponent 함수는 다음과 같이 계산했습니다.   
 
 exponent(3, 10)   
-3*exponent(3, 9)   
-3*3*exponent(3, 8)   
-3*3*3*exponent(3, 7)   
-3*3*3*3*exponent(3, 6)   
-3*3*3*3*3*exponent(3, 5)   
-3*3*3*3*3*3*exponent(3, 4)   
-3*3*3*3*3*3*3*exponent(3, 3)   
-3*3*3*3*3*3*3*3*exponent(3, 2)   
-3*3*3*3*3*3*3*3*3*exponent(3, 1)   
-3*3*3*3*3*3*3*3*3*3*exponent(3, 0)   
-3*3*3*3*3*3*3*3*3*3*1   
+3 x exponent(3, 9)   
+3 x 3 x exponent(3, 8)   
+3 x 3 x 3 x exponent(3, 7)   
+3 x 3 x 3 x 3 x exponent(3, 6)   
+3 x 3 x 3 x 3 x 3 x exponent(3, 5)   
+3 x 3 x 3 x 3 x 3 x 3 x exponent(3, 4)   
+3 x 3 x 3 x 3 x 3 x 3 x 3 x exponent(3, 3)   
+3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x exponent(3, 2)   
+3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x exponent(3, 1)   
+3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x exponent(3, 0)   
+3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 1   
 59049 (총 10단계로 계산)   
 
 개선된 exponent 함수는 다음과 같이 계산합니다.   
 exponent(3, 10)   
-exponent(3, 5)*exponent(3, 5)   
-3*exponent(3, 4)*3*exponent(3, 4)   
-3*exponent(3, 2)*exponent(3, 2)*3*exponent(3, 2)*exponent(3, 2)   
-3*exponent(3, 1)*exponent(3, 1)*exponent(3, 1)*exponent(3, 1) #길어서 다음 줄로 분리   
-*3*exponent(3, 1)*exponent(3, 1)*exponent(3, 1)*exponent(3, 1)   
-3*3*3*3*3*3*3*3*3*3   
+exponent(3, 5) x exponent(3, 5)   
+3 x exponent(3, 4) x 3 x exponent(3, 4)   
+3 x exponent(3, 2) x exponent(3, 2) x 3 x exponent(3, 2) x exponent(3, 2)   
+3 x exponent(3, 1) x exponent(3, 1) x exponent(3, 1) x exponent(3, 1) #길어서 다음 줄로 분리   
+x 3 x exponent(3, 1) x exponent(3, 1) x exponent(3, 1) x exponent(3, 1)   
+3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3   
 59049 (총 5단계로 계산)   
 
 
