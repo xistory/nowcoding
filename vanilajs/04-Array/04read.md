@@ -9,7 +9,7 @@ index.html을 에디터로 열어보면 script태그에 4개의 배열이 있는
 2) inventors에서 first와 last name로만 뽑아서 다시 나열해보자. (Array.prototype.map)
 3) inventors에 있는 인물들을 태어난 연도를 기준으로 다시 나열해보자. (가장 오래된 순서로) (Array.prototype.sort)
 4) inventors에 있는 인물들이 생존한 기간은 총 몇 년인가? (Array.prototype.reduce)
-5) inventors에 있는 인물들을 생존한 기간을 기준으로 다시 나열해보자. (가장 오래된 순서로) (Array.prototype.reduce)
+5) inventors에 있는 인물들을 생존한 기간을 기준으로 다시 나열해보자. (가장 오래된 순서로) (Array.prototype.sort)
 6) data배열에 있는 각각의 요소가 몇번 반복적으로 나타나는지 구해서, 객체의 형태로 정리해서 반환해보자 (Array.prototype.reduce)   
 다음과 같은 형태로 반환되어야한다.   
 { bike: 2, car: 5, pogostick: 1, ….. }
