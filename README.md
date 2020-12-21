@@ -1,10 +1,13 @@
 ## Vanila Javascript
 
-문법 공부: <https://poiemaweb.com/>   
+- [JS 기초](https://github.com/xistory/nowcoding/tree/master/Vanilajs/Basic)   
+- [JS 실전](https://github.com/xistory/nowcoding/tree/master/Vanilajs/Projects)   
 
-- JS 기초   
-- 바닐라 10여개   
-- poiemweb에서 심화문법   
+### 기본 교재
+[Poiemaweb](https://poiemaweb.com/)
+
+### 참고 강의
+- [생활코딩 HTML](https://opentutorials.org/course/3084)
 
 ## 풀스택 프로젝트
 
