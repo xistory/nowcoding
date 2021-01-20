@@ -9,7 +9,7 @@ users 안에 해당 계정이 있는지 확인해서 있으면 그 계정의 isL
 계정이 없으면 로그인을 거절하는 메세지를 띄워주세요.   
 
 3. products에는 3개의 제품에 대한 정보가 담겨있습니다. users와 마찬가지로 객체들로 이루어진 배열입니다.   
-rateProduct 함수를 만들어보세요. 입력값으로 _id, rating을 받습니다.   
+rateProduct 함수를 만들어보세요. 입력값으로 _id, rate, userId을 받습니다.   
 rateProduct가 실행되면 해당 제품의 ratings에 입력받은 rating을 추가합니다.   
 
 4. averageRating 함수를 만들어보세요. 입력값으로 name(제품이름)을 받습니다.   
