@@ -10,14 +10,16 @@ index.html 파일을 브라우저에서 열어보면, Item을 입력하는 창�
 
 자바스크립트 localStorage 참고 : <https://ponyozzang.tistory.com/341>
 
-3가지 함수를 만들어서 구현합니다.   
+3가지 함수가 필요한데 그 중 하나인 populateList 함수는 이미 구현되어 있습니다.   
+
+populateList 함수는 TODO 목록을 다시 갱신해주는 역할을 합니다. 우리가 구현해야할 나머지 2개의 함수에서는 populateList 함수를 사용해야합니다.   
+
 첫번째 함수는 addItem입니다. 폼 태그요소인 addItems에 'submit'이벤트로 바인딩합니다.   
 itemsList에 아이템을 추가하고, localStorage에도 저장시키는 역할을 합니다.   
 
 두번째 함수는 toggleDone입니다. ul 태그요소인 itemsList에 'click'이벤트로 바인딩합니다.  
 itemsList에 있는 항목들 중 하나를 체크했을 때, 완료표시가 되도록 동작합니다. 역시 localStorage에도 반영되어야합니다.
 
-세번째 함수는 populateList입니다. TODO 목록을 다시 갱신해주는 역할을 합니다. addItem과 toggleDone 내부에 넣어주어서 아이템을 추가할 때, 또는 아이템을 완료시켰을 때 populateList가 동작하도록 합니다.   
 
 --
 
@@ -69,8 +71,17 @@ todosList의 innerHTML에 (예를 들면) 다음과 같은 HTML 요소를 집어
     <input type="checkbox" data-index=2 id="item2" 'checked' />
     <label for="item2">산책하기</label>
 </li>
-```
-반복되는 li태그를 처리하기 위해 배열의 map함수를 활용해보세요.   
-innerHTML에 넣는 자료형은 문자열이라는 것도 꼭 숙지하세요.
+```   
+innerHTML에 넣는 자료형은 문자열이라는 것을 꼭 숙지하세요.   
+
+
+### 추가 연습문제
+1. TODO 항목을 제거하는 removeItem 함수를 만들어보세요. 먼저 각각의 TODO 항목마다 제거 버튼이 달려있어야합니다. 버튼을 누르면 해당 항목이 삭제됩니다.   
+
+2. 다음 2가지 함수를 만들어보세요.
+- populateTODO : 완료되지 않은 TODO 항목만 나타나도록 TODO 리스트를 갱신합니다. '남은 일' 버튼을 만들고, 이 버튼에 함수를 등록시킵니다.
+- populateDONE : 완료한 TODO 항목만 나타나도록 TODO 리스트를 갱신합니다. '완료' 버튼을 만들고, 이 버튼에 함수를 등록시킵니다.   
+
+추가로 '전체' 버튼도 만들고 기존의 populateList 함수를 등록시켜서 전체 항목도 볼 수 있도록 구현해봅시다.
 
 

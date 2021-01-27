@@ -21,4 +21,4 @@
 7. p 태그들의 스타일을 자바스크립트를 활용해서 자유롭게 바꿔보세요. (예를 들어, color, background, border, font-size, font-family 등)   
 
 8. 모든 p 태그들을 선택해서 다음과 같이 되도록 반복문을 구현해보세요.   
-- 첫번째와 세번째 paragraph의 글자색은 green, 두번째와 세번째 paragraph의 글자색은 red.   
+- 첫번째와 세번째 paragraph의 글자색은 green, 두번째와 네번째 paragraph의 글자색은 red.   
