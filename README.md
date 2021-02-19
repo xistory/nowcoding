@@ -36,10 +36,17 @@
 - clojurescript   
 
 ## 번외   
-- Git, Github   
-- 리눅스 터미널, 텍스트 에디터   
-[기본 명령어 학습](http://deu-gnuteam.blogspot.com/2010/02/%EB%A6%AC%EB%88%85%EC%8A%A4%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%8B%A4%EC%8A%B5%ED%95%98%EA%B8%B0.html)   
+### 리눅스 터미널
+- [터미널 기본 명령어 실습](http://deu-gnuteam.blogspot.com/2010/02/%EB%A6%AC%EB%88%85%EC%8A%A4%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%8B%A4%EC%8A%B5%ED%95%98%EA%B8%B0.html)   
+- [리눅스 기초](https://studymake.tistory.com/93)
+
+### Git, Github   
+- [Progit](https://git-scm.com/book/ko/v2) : 1~3장까지 먼저 학습.
+- [Learn Git Branching](https://learngitbranching.js.org/?locale=ko)
+- [MIT 특강 Git](https://missing-semester-kr.github.io/2020/version-control/)
+
+
 [MIT 특강](https://missing-semester-kr.github.io/)   
-vscode 설치 : <https://hcnam.tistory.com/13>
-- AWS   
-- 정규표현식   
+vscode 설치 : <https://hcnam.tistory.com/13>   
+### AWS   
+### 정규표현식   
