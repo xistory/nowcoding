@@ -42,6 +42,9 @@
 
 ### Git, Github   
 - [Progit](https://git-scm.com/book/ko/v2) : 1~3장까지 먼저 학습.
+- [Git 기초개념 by 노마드코더](https://www.youtube.com/watch?v=YFNQwo7iTNc)
+- [Git 기본개념 및 실습 by 드림코딩](https://www.youtube.com/watch?v=Z9dvM7qgN9s)
+- [생활코딩 Git강좌](https://opentutorials.org/course/3837) - 프로젝트 관리 -> GITn
 - [Learn Git Branching](https://learngitbranching.js.org/?locale=ko)
 - [MIT 특강 Git](https://missing-semester-kr.github.io/2020/version-control/)
 
